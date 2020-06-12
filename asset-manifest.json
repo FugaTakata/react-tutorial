@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/react-tutorial/static/js/main.a2cc6b9f.chunk.js",
-    "main.js.map": "/react-tutorial/static/js/main.a2cc6b9f.chunk.js.map",
+    "main.js": "/react-tutorial/static/js/main.8dd63d6e.chunk.js",
+    "main.js.map": "/react-tutorial/static/js/main.8dd63d6e.chunk.js.map",
     "runtime-main.js": "/react-tutorial/static/js/runtime-main.ee9240c0.js",
     "runtime-main.js.map": "/react-tutorial/static/js/runtime-main.ee9240c0.js.map",
     "static/css/2.97c52fde.chunk.css": "/react-tutorial/static/css/2.97c52fde.chunk.css",
     "static/js/2.c84713ea.chunk.js": "/react-tutorial/static/js/2.c84713ea.chunk.js",
     "static/js/2.c84713ea.chunk.js.map": "/react-tutorial/static/js/2.c84713ea.chunk.js.map",
     "index.html": "/react-tutorial/index.html",
-    "precache-manifest.5b54ed32911e7e7743ede844f6de425e.js": "/react-tutorial/precache-manifest.5b54ed32911e7e7743ede844f6de425e.js",
+    "precache-manifest.241140812af83cd766432207199b6b52.js": "/react-tutorial/precache-manifest.241140812af83cd766432207199b6b52.js",
     "service-worker.js": "/react-tutorial/service-worker.js",
     "static/css/2.97c52fde.chunk.css.map": "/react-tutorial/static/css/2.97c52fde.chunk.css.map",
     "static/js/2.c84713ea.chunk.js.LICENSE.txt": "/react-tutorial/static/js/2.c84713ea.chunk.js.LICENSE.txt",
@@ -18,17 +18,17 @@
     "static/media/solid.css": "/react-tutorial/static/media/fa-solid-900.ec763292.svg",
     "static/media/fish.jpg": "/react-tutorial/static/media/fish.c2183205.jpg",
     "static/media/fuji.jpg": "/react-tutorial/static/media/fuji.94c4b6a5.jpg",
-    "static/media/ganmon.jpg": "/react-tutorial/static/media/ganmon.9b9eeefe.jpg",
-    "static/media/kinugawa.jpg": "/react-tutorial/static/media/kinugawa.3ba2cc7a.jpg",
-    "static/media/pancake.jpg": "/react-tutorial/static/media/pancake.141d0bd5.jpg",
+    "static/media/ganmon.png": "/react-tutorial/static/media/ganmon.f135c3f5.png",
+    "static/media/kinugawa.jpg": "/react-tutorial/static/media/kinugawa.ada429e7.jpg",
+    "static/media/pancake.jpg": "/react-tutorial/static/media/pancake.01f0b34d.jpg",
     "static/media/snowboard.jpg": "/react-tutorial/static/media/snowboard.047f2dc2.jpg",
-    "static/media/stake.jpg": "/react-tutorial/static/media/stake.317f6ff7.jpg",
+    "static/media/stake.jpg": "/react-tutorial/static/media/stake.940e3127.jpg",
     "static/media/sushi.jpg": "/react-tutorial/static/media/sushi.bdceee0e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee9240c0.js",
     "static/css/2.97c52fde.chunk.css",
     "static/js/2.c84713ea.chunk.js",
-    "static/js/main.a2cc6b9f.chunk.js"
+    "static/js/main.8dd63d6e.chunk.js"
   ]
 }
