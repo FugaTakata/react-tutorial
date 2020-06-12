@@ -7,7 +7,7 @@ import camp from './assets/images/camp.jpg'
 import dive from './assets/images/dive.jpg'
 import fish from './assets/images/fish.jpg'
 
-import ganmon from './assets/images/ganmon.jpg'
+import ganmon from './assets/images/ganmon.png'
 import kinugawa from './assets/images/kinugawa.jpg'
 import fuji from './assets/images/fuji.jpg'
 
@@ -17,7 +17,7 @@ import stake from './assets/images/stake.jpg'
 
 const App = () => {
   const style = {
-    backgroundImage: `url(${snowboard})`,
+    backgroundImage: `linear-gradient(rgba(20, 150, 237, 0.4) 0px, rgb(255, 255, 255) 100%), url(${snowboard})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }
@@ -27,7 +27,7 @@ const App = () => {
       <section className='hero is-info is-large is-hidden-mobile' style={style}>
         <div className='hero-body'>
           <div className='container has-text-centered'>
-            <h1 className='title is-1 has-text-danger'>f-maple</h1>
+            <h1 className='title is-1 has-text-link'>f-maple</h1>
           </div>
         </div>
       </section>
@@ -37,7 +37,7 @@ const App = () => {
       >
         <div className='hero-body'>
           <div className='container has-text-centered'>
-            <h1 className='title is-1 has-text-danger'>f-maple</h1>
+            <h1 className='title is-1 has-text-link'>f-maple</h1>
           </div>
         </div>
       </section>
@@ -54,7 +54,7 @@ const App = () => {
                     今は東京で一人暮らしをしていて、普段は飲食店でアルバイトをしたり、友達と遊んだり、ReactやIonicをつかってwebサイトや、webアプリ、モバイルアプリを作ったりしている、極々普通の大学生です。
                   </p>
 
-                  <h2 className='subtitle'>海でキャンプするのが好き</h2>
+                  <h2 className='subtitle '>海でキャンプするのが好き</h2>
                   <div className='columns'>
                     <div className='column'>
                       <img src={camp} alt='キャンプの画像' />
@@ -83,28 +83,28 @@ const App = () => {
                     <div className='column'></div>
                   </div>
 
-                  <h2 className='subtitle'>旅行が好き</h2>
+                  <h2 className='subtitle '>旅行が好き</h2>
                   <div className='columns'>
                     <div className='column'>
                       <img src={kinugawa} alt='鬼怒川温泉の画像' />
                     </div>
                     <div className='column'>
                       <img src={fuji} alt='鬼怒川温泉の画像' />
-                      <img src={ganmon} alt='鬼怒川温泉の画像' />
-                      <div className='column'></div>
                     </div>
                     <div className='column'>
-                      <p>
-                        キャンプにちょっとかぶってしまうところもあるんですが、旅行も好きです。
-                        今年はまだ鬼怒川温泉にしかいけていないけど、コロナが落ち着いて旅行できるようになったら必ずどこかにいこうと思っています。
-                        写真は鬼怒川温泉、静岡で撮った富士山、石川県にある巌門です。
-                        生きている間に47都道府県全てを旅行して、海外にもたくさん行ってみたいです。
-                        運転が好きなので、旅行も運転も楽しめて一石二鳥で嬉しいです。
-                      </p>
+                      <img src={ganmon} alt='巌門の画像' />
+                      <div className='column'></div>
                     </div>
                   </div>
+                  <p>
+                    キャンプにちょっとかぶってしまうところもあるんですが、旅行も好きです。
+                    今年はまだ鬼怒川温泉にしかいけていないけど、コロナが落ち着いて旅行できるようになったら必ずどこかにいこうと思っています。
+                    写真は鬼怒川温泉、静岡で撮った富士山、石川県にある巌門です。
+                    生きている間に47都道府県全てを旅行して、海外にもたくさん行ってみたいです。
+                    運転が好きなので、旅行も運転も楽しめて一石二鳥で嬉しいです。
+                  </p>
 
-                  <h2 className='subtitle'>食べることが好き</h2>
+                  <h2 className='subtitle '>食べることが好き</h2>
                   <div className='columns'>
                     <div className='column'>
                       <img src={pancake} alt='パンケーキの画像' />
@@ -139,9 +139,9 @@ const App = () => {
                     番やのすしと同じくらいのお寿司を東京で食べたら倍以上はするんじゃないかな？と思ってます。
                   </p>
 
-                  <h2 className='subtitle'>プログラミングが好き</h2>
-                  <div className="columns">
-                    <div className="column">
+                  <h2 className='subtitle '>プログラミングが好き</h2>
+                  <div className='columns'>
+                    <div className='column'>
                       <p>
                         大学に入ってから始めたプログラミングが大好きです。最近は自分のプログラミングスキルを高めるためにたくさん勉強しています。近いうちに友人と作っているアプリをリリースするので、よかったら使ってみてください。
                       </p>
@@ -152,14 +152,14 @@ const App = () => {
 
               <div className='column is-4'>
                 <div className='content'>
-                  <h2 className='subtitle'>リンク</h2>
+                  <h2 className='subtitle '>リンク</h2>
                 </div>
                 <aside className='menu'>
                   <ul className='menu-list'>
                     <li className='level'>
                       <div className='level-left'>
                         <div className='level-item'>
-                          <span className='icon is-large'>
+                          <span className='icon is-large has-text-link'>
                             <i className='fab fa-github fa-2x'></i>
                           </span>
                           <a href='https://github.com/FugaTakata'>GitHub</a>
@@ -169,7 +169,7 @@ const App = () => {
                     <li className='level'>
                       <div className='level-left'>
                         <div className='level-item'>
-                          <span className='icon is-large'>
+                          <span className='icon is-large has-text-link'>
                             <i className='fab fa-twitter fa-2x'></i>
                           </span>
                           <a href='https://twitter.com/maple__f'>Twitter</a>
